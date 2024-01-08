@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+  </head>
+  <body>
+    <form>
+      <b>
+        <div id="info">
+          <h1>User Registration Form</h1>
+          <label for="first name"
+            >First Name:
+            <input type="text" name="first name" id="01" required /></label
+          ><br /><br />
+          <label for="last name"
+            >Last Name:
+            <input type="text" name="last name" id="02" required /></label
+          ><br /><br />
+          <label for="password"
+            >Password:
+            <input type="password" name="password" id="03" required /></label
+          ><br /><br />
+          <label for="bio"
+            >Bio: <textarea name="bio" id="04" cols="70" rows="5"></textarea>
+          </label>
+        </div>
+        <br /><br />
+        <fieldset>
+          <legend>Gender:</legend>
+          <label for="male">
+            <input
+              type="radio"
+              name="mygender"
+              id="male"
+              value="male"
+            />Male </label
+          ><br />
+          <label for="female">
+            <input type="radio" name="mygender" id="female" />Female </label
+          ><br />
+          <label for="other">
+            <input type="radio" name="mygender" id="other" />Other
+          </label>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Interest</legend>
+          <label for="Music">
+            <input type="checkbox" name="Music" id="Music" />Music </label
+          ><br />
+          <label for="sports">
+            <input type="checkbox" name="sports" id="sports" />Sports </label
+          ><br />
+          <label for="reading">
+            <input type="checkbox" name="reading" id="reading" />Reading
+          </label>
+        </fieldset>
+        <br />
+        <label for="country"
+          >Country:
+          <select name="country" id="country" required>
+            <option value="united states">united states</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+            <option value="China">China</option></select
+          ><br /><br />
+        </label>
+        <label for="colors"
+          >Preferred Colors:
+          <select name="colors" id="colors" multiple required>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+          </select> </label
+        ><br /><br />
+        <label for="profile picture"
+          >Profile Picture:
+          <input
+            type="file"
+            name="profile picture"
+            id="profilepicture"
+            accept="image/*"
+            required
+          /> </label
+        ><br /><br />
+        <label for="birthday"
+          >Birthday:
+          <input type="date" name="birthdate" id="birthday" required /> </label
+        ><br /><br />
+        <label for="Email"
+          >Email:
+          <input type="email" name="email" id="email" required /> </label
+        ><br /><br />
+        <label for="website"
+          >Website:
+          <input type="url" name="website url" id="website" required /> </label
+        ><br /><br />
+        <label for="seaarch"
+          >Search:
+          <input type="search" name="search" id="search" /> </label
+        ><br /><br />
+        <input type="submit" value="submit" />
+      </b>
+    </form>
+  </body>
+</html>
